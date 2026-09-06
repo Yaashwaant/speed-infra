@@ -22,7 +22,7 @@
     <!-- Resource hints for faster loading -->
     <link rel="preload" as="image" href="assets/hero-poster.avif" type="image/avif">
     <link rel="preload" as="image" href="assets/hero-poster.webp" type="image/webp">
-    <link rel="preload" as="video" href="final-video.mp4" type="video/mp4" crossorigin>
+    <link rel="preload" as="video" href="final-video-scrub.mp4" type="video/mp4" crossorigin>
     
     <!-- GSAP + ScrollTrigger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
@@ -1632,7 +1632,7 @@ nav {
                 <div class="poster"></div>
                 <video id="hero" preload="none" muted playsinline aria-hidden="true" tabindex="-1" disablepictureinpicture>
                 <!-- Modern video sources with adaptive loading -->
-                <source data-src-1080="final-video.mp4" data-src-720="final-video.mp4" type="video/mp4">
+                <source data-src-1080="final-video-scrub.mp4" data-src-720="final-video-scrub.mp4" type="video/mp4">
             </video>
                 <svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
                     <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"
@@ -1830,7 +1830,7 @@ nav {
             function getOptimalVideoUrl() {
                 const sources = video.querySelectorAll('source');
                 if (sources.length === 0) {
-                    return { url: 'final-video.mp4', type: 'video/mp4' };
+                    return { url: 'final-video-scrub.mp4', type: 'video/mp4' };
                 }
                 
                 // Use Network Information API if available (Chrome/Edge)
@@ -1873,7 +1873,7 @@ nav {
                 if (!preferredSource) {
                     const firstSource = sources[0];
                     preferredSource = {
-                        url: firstSource.dataset.src1080 || firstSource.dataset.src720 || 'final-video.mp4',
+                        url: firstSource.dataset.src1080 || firstSource.dataset.src720 || 'final-video-scrub.mp4',
                         type: firstSource.type
                     };
                 }
