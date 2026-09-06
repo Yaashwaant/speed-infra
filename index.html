@@ -251,34 +251,54 @@
             z-index: 3;
         }
         
-        /* Scroll Indicator (Mouse + Text) */
-        .scroll-indicator {
-            position: absolute;
-            bottom: 3rem;
-            left: 50%;
-            transform: translateX(-50%);
+        /* Mouse Scroll Indicator */
+        .mouse-scroll-indicator {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 0.75rem;
-            text-align: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            pointer-events: auto; /* Allow clicking if wrapped in <a> */
+            text-decoration: none;
         }
-        
-        .scroll-line {
-            width: 30px;
-            height: 1px;
-            background: var(--text-secondary);
-            opacity: 0.8;
-            margin-bottom: 0.25rem;
+
+        .mouse-icon {
+            width: 24px;
+            height: 36px;
+            border: 1px solid rgba(255, 249, 237, 0.5);
+            border-radius: 12px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .mouse-wheel {
+            width: 2px;
+            height: 6px;
+            background-color: rgba(255, 249, 237, 0.9);
+            border-radius: 2px;
+            margin-top: 6px;
+            animation: mouseScroll 1.5s infinite ease-in-out;
+        }
+
+        @keyframes mouseScroll {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(12px);
+                opacity: 0;
+            }
         }
         
         .scroll-text {
             font-family: var(--sans);
-            font-size: 0.6rem;
+            font-size: 0.65rem;
             font-weight: 400;
             text-transform: uppercase;
             letter-spacing: 0.4em;
-            color: var(--text-secondary);
+            color: #fff9ed;
             opacity: 0.85;
         }
         .hero-text {
@@ -323,25 +343,6 @@
             letter-spacing: 0.05em;
         }
 
-        .hero-btn {
-            display: inline-block;
-            font-family: var(--sans);
-            font-size: 0.75rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.4em;
-            color: #fff9ed;
-            text-decoration: none;
-            padding: 1rem 2.5rem;
-            border: 1px solid rgba(255, 249, 237, 0.4);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(4px);
-        }
-        
-        .hero-btn:hover {
-            background: rgba(255, 249, 237, 0.1);
-            border-color: rgba(255, 249, 237, 0.8);
-        }
         
         .hero-bottom {
             position: absolute;
@@ -1647,11 +1648,12 @@ nav {
                     <p class="hero-kicker">In the land of</p>
                     <h1 class="hero-title">The Spaces<br>for Life</h1>
                     <p class="hero-subtitle">A journey from earth to home.</p>
-                    <a href="#explore" class="hero-btn">BEGIN THE JOURNEY</a>
-                </div>
-                <div class="scroll-indicator">
-                    <div class="scroll-line"></div>
-                    <p class="scroll-text">SCROLL</p>
+                    <div class="mouse-scroll-indicator">
+                        <div class="mouse-icon">
+                            <div class="mouse-wheel"></div>
+                        </div>
+                        <p class="scroll-text">SCROLL</p>
+                    </div>
                 </div>
             </div>
 
@@ -1796,7 +1798,7 @@ nav {
                         
                         // Hero text fades out as you scroll through the video
                         const heroText = document.querySelector('.hero-text');
-                        const scrollIndicator = document.querySelector('.scroll-indicator');
+                        const scrollIndicator = document.querySelector('.mouse-scroll-indicator');
                         const mistLayer = document.querySelector('.mist');
                         
                         if (mistLayer) {
