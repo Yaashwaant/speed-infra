@@ -1,0 +1,72 @@
+- generic [active] [ref=f19e1]:
+  - link "Skip to content" [ref=f19e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=f19e3]:
+    - link "Inquire" [ref=f19e4] [cursor=pointer]:
+      - /url: "#contact"
+    - link "Speed Infra" [ref=f19e5] [cursor=pointer]:
+      - /url: "#"
+    - link "Connect" [ref=f19e7] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=f19e10]:
+    - generic:
+      - generic:
+        - paragraph: In the land of
+        - heading "The Spaces for Life" [level=1]: The Spacesfor Life
+        - paragraph: Begin the journey
+      - generic:
+        - paragraph: Scroll Down
+    - generic [ref=f19e16]:
+      - paragraph [ref=f19e17]: Crafted by
+      - paragraph [ref=f19e18]: Webbrixs Technologies
+      - generic [ref=f19e19]:
+        - link [ref=f19e20] [cursor=pointer]:
+          - /url: https://wa.me/918793334476
+        - link [ref=f19e24] [cursor=pointer]:
+          - /url: https://www.webbrixs.in
+        - link [ref=f19e29] [cursor=pointer]:
+          - /url: mailto:hello@webbrixs.in
+  - main [ref=f19e34]:
+    - generic [ref=f19e35]:
+      - generic [ref=f19e36]:
+        - paragraph [ref=f19e37]: Begin
+        - heading "Book a Discovery Call" [level=2] [ref=f19e38]
+        - paragraph [ref=f19e39]: Write to us on WhatsApp or send an email, and we will take it from there.
+      - generic [ref=f19e40]:
+        - link "Write us on WhatsApp" [ref=f19e41] [cursor=pointer]:
+          - /url: https://wa.me/91879334476?text=Hello%2C%20I%27d%20like%20to%20inquire%20about%20a%20property
+        - link "Send an Email" [ref=f19e44] [cursor=pointer]:
+          - /url: mailto:hello@webbrixs.in?subject=Inquiry%20about%20Speed%20Infra%20Property
+      - generic [ref=f19e48]:
+        - paragraph [ref=f19e49]: Or reach us directly
+        - generic [ref=f19e50]:
+          - text: "WhatsApp:"
+          - link "879334476" [ref=f19e51] [cursor=pointer]:
+            - /url: https://wa.me/91879334476
+        - generic [ref=f19e52]:
+          - text: "Email:"
+          - link "hello@webbrixs.in" [ref=f19e53] [cursor=pointer]:
+            - /url: mailto:hello@webbrixs.in
+        - generic [ref=f19e54]:
+          - text: "Website:"
+          - link "www.webbrixs.in" [ref=f19e55] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+  - contentinfo [ref=f19e56]:
+    - generic [ref=f19e57]:
+      - generic [ref=f19e58]: Speed Infra
+      - paragraph [ref=f19e59]: The Spaces for Life
+      - generic [ref=f19e60]:
+        - paragraph [ref=f19e61]:
+          - text: Made by
+          - link "Webbrixs Technologies" [ref=f19e62] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+        - paragraph [ref=f19e63]:
+          - 'link "WhatsApp: 8793334476" [ref=f19e64] [cursor=pointer]':
+            - /url: https://wa.me/918793334476
+          - text: ·
+          - link "www.webbrixs.in" [ref=f19e65] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+          - text: ·
+          - link "hello@webbrixs.in" [ref=f19e66] [cursor=pointer]:
+            - /url: mailto:hello@webbrixs.in
+      - paragraph [ref=f19e67]: © 2024 Speed Infra Developers LLP

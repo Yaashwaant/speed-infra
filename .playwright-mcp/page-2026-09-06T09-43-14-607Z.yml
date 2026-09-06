@@ -1,0 +1,125 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=f3e3]:
+    - link "Inquire" [ref=f3e4] [cursor=pointer]:
+      - /url: "#contact"
+    - link "Speed Infra" [ref=f3e5] [cursor=pointer]:
+      - /url: "#"
+    - link "Connect" [ref=f3e7] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=f3e10]:
+    - generic:
+      - generic:
+        - paragraph: In the land of
+        - heading "The Spaces for Life" [level=1]: The Spacesfor Life
+        - paragraph: Begin the journey
+      - generic:
+        - paragraph: Scroll Down
+    - generic [ref=f3e16]:
+      - paragraph [ref=f3e17]: Crafted by
+      - paragraph [ref=f3e18]: Webbrixs Technologies
+      - generic [ref=f3e19]:
+        - link [ref=f3e20] [cursor=pointer]:
+          - /url: https://wa.me/918793334476
+        - link [ref=f3e24] [cursor=pointer]:
+          - /url: https://www.webbrixs.in
+        - link [ref=f3e29] [cursor=pointer]:
+          - /url: mailto:hello@webbrixs.in
+  - main [ref=f3e34]:
+    - generic [ref=f3e36]:
+      - generic [ref=f3e37]:
+        - paragraph [ref=f3e38]: Our Vision
+        - heading "We build where others won't." [level=3] [ref=f3e39]
+        - paragraph [ref=f3e40]: "\"The good land is never the obvious land. We look past the highway, past the brand name, past the brochure, and we walk the site ourselves.\""
+        - paragraph [ref=f3e41]: Speed Infra has been turning overlooked parcels into working neighborhoods near Hyderabad for over a decade. We do this slowly, one site at a time, with the same team from foundation to handover.
+        - paragraph [ref=f3e42]: When you walk into one of our communities, the road is paved, the water runs, and the lights are on. That is the only proof we offer.
+        - paragraph [ref=f3e43]: The Speed Infra team
+      - img "A Speed Infra community at first light, viewed from above" [ref=f3e46]
+    - generic [ref=f3e47]:
+      - generic [ref=f3e48]:
+        - paragraph [ref=f3e49]: How we build
+        - heading "Three steps. No surprises." [level=2] [ref=f3e50]
+        - paragraph [ref=f3e51]: From the first walk across a bare field to the day you collect your keys, the same team carries the work.
+      - generic [ref=f3e52]:
+        - article [ref=f3e53]:
+          - generic [ref=f3e54]: "01"
+          - generic [ref=f3e55]:
+            - heading "Scout the land" [level=3] [ref=f3e56]
+            - paragraph [ref=f3e57]: We walk the site in the rain, check the borewells, time the drive to the airport. If the answer to any of those is wrong, we walk away.
+        - article [ref=f3e58]:
+          - generic [ref=f3e59]: "02"
+          - generic [ref=f3e60]:
+            - heading "Draw the plan twice" [level=3] [ref=f3e61]
+            - paragraph [ref=f3e62]: Plans get drawn once, then redrawn. Road width, water line, sun angle, parking. The blueprint you sign is the second one, and it is the one we trust.
+        - article [ref=f3e63]:
+          - generic [ref=f3e64]: "03"
+          - generic [ref=f3e65]:
+            - heading "Build with one crew" [level=3] [ref=f3e66]
+            - paragraph [ref=f3e67]: One site, one supervisor, one crew. The same hands that poured the foundation hand you the keys. We send photos every Friday until handover day.
+    - generic [ref=f3e68]:
+      - generic [ref=f3e69]:
+        - paragraph [ref=f3e70]: What we do not compromise
+        - heading "Three quiet promises." [level=2] [ref=f3e71]
+      - generic [ref=f3e72]:
+        - article [ref=f3e73]:
+          - heading "Twenty minutes to the airport" [level=3] [ref=f3e78]
+          - paragraph [ref=f3e79]: Every project sits within a short drive of Rajiv Gandhi International Airport. No surprise traffic on moving day, no surprise tolls on the way home.
+        - article [ref=f3e80]:
+          - heading "Every plot, every document" [level=3] [ref=f3e84]
+          - paragraph [ref=f3e85]: RERA registered, layout approved, title clear, file ready before you sign. The paperwork is boring on purpose, and it ships with the keys.
+        - article [ref=f3e86]:
+          - heading "Built for thirty years" [level=3] [ref=f3e90]
+          - paragraph [ref=f3e91]: Foundations sized for three stories, water lines sized for a city block, electric mains ready for the EV future. We build once and we build right.
+    - generic [ref=f3e92]:
+      - generic [ref=f3e93]:
+        - paragraph [ref=f3e94]: A quiet moment
+        - heading "Hold the button. Watch a community take shape." [level=2] [ref=f3e95]
+        - paragraph [ref=f3e96]: A short, calm pause while the lights come on across the site. When the circle is full, you are ready for the next step.
+      - generic [ref=f3e97]:
+        - button "Press and hold to continue" [ref=f3e98] [cursor=pointer]:
+          - generic [ref=f3e99]: Hold to begin
+        - paragraph [ref=f3e100]: Press and hold for three seconds.
+    - generic [ref=f3e101]:
+      - generic [ref=f3e102]:
+        - paragraph [ref=f3e103]: Begin
+        - heading "Book a Discovery Call" [level=2] [ref=f3e104]
+        - paragraph [ref=f3e105]: Write to us on WhatsApp or send an email, and we will take it from there.
+      - generic [ref=f3e106]:
+        - link "Write us on WhatsApp" [ref=f3e107] [cursor=pointer]:
+          - /url: https://wa.me/91879334476?text=Hello%2C%20I%27d%20like%20to%20inquire%20about%20a%20property
+        - link "Send an Email" [ref=f3e110] [cursor=pointer]:
+          - /url: mailto:hello@webbrixs.in?subject=Inquiry%20about%20Speed%20Infra%20Property
+      - generic [ref=f3e114]:
+        - paragraph [ref=f3e115]: Or reach us directly
+        - generic [ref=f3e116]:
+          - text: "WhatsApp:"
+          - link "879334476" [ref=f3e117] [cursor=pointer]:
+            - /url: https://wa.me/91879334476
+        - generic [ref=f3e118]:
+          - text: "Email:"
+          - link "hello@webbrixs.in" [ref=f3e119] [cursor=pointer]:
+            - /url: mailto:hello@webbrixs.in
+        - generic [ref=f3e120]:
+          - text: "Website:"
+          - link "www.webbrixs.in" [ref=f3e121] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+  - contentinfo [ref=f3e122]:
+    - generic [ref=f3e123]:
+      - generic [ref=f3e124]: Speed Infra
+      - paragraph [ref=f3e125]: The Spaces for Life
+      - generic [ref=f3e126]:
+        - paragraph [ref=f3e127]:
+          - text: Made by
+          - link "Webbrixs Technologies" [ref=f3e128] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+        - paragraph [ref=f3e129]:
+          - 'link "WhatsApp: 8793334476" [ref=f3e130] [cursor=pointer]':
+            - /url: https://wa.me/918793334476
+          - text: ·
+          - link "www.webbrixs.in" [ref=f3e131] [cursor=pointer]:
+            - /url: https://www.webbrixs.in
+          - text: ·
+          - link "hello@webbrixs.in" [ref=f3e132] [cursor=pointer]:
+            - /url: mailto:hello@webbrixs.in
+      - paragraph [ref=f3e133]: © 2024 Speed Infra Developers LLP

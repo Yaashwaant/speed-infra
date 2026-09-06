@@ -1,0 +1,110 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=f2e3]:
+    - link "Inquire" [ref=f2e4] [cursor=pointer]:
+      - /url: "#contact"
+    - link "Speed Infra The Spaces for Life" [ref=f2e5] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=f2e6]: Speed Infra
+      - generic [ref=f2e7]: The Spaces for Life
+    - link "Explore" [ref=f2e8] [cursor=pointer]:
+      - /url: "#projects"
+  - generic [ref=f2e11]:
+    - generic:
+      - generic:
+        - paragraph: In the land of
+        - heading "The Spaces for Life" [level=1]: The Spacesfor Life
+        - paragraph: A journey from earth to home
+      - generic:
+        - paragraph: Begin the journey
+  - main [ref=f2e17]:
+    - generic [ref=f2e18]:
+      - generic [ref=f2e19]:
+        - paragraph [ref=f2e20]: Our Philosophy
+        - heading "Where land becomes legacy" [level=2] [ref=f2e21]
+        - paragraph [ref=f2e22]: For two decades, we have listened to the earth, then drawn homes upon it. Each development begins not with blueprints, but with the land itself, its contours, its light, its quiet promise of life.
+      - img "Speed Infra Community" [ref=f2e25]
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - paragraph [ref=f2e28]: Our Developments
+        - heading "Distinct places, one vision" [level=2] [ref=f2e29]
+        - paragraph [ref=f2e30]: Each project is a world unto itself, conceived with care, crafted with intention, and completed with the same reverence that began it.
+      - generic [ref=f2e31]:
+        - article [ref=f2e32]:
+          - img "Xora City" [ref=f2e35]
+          - generic [ref=f2e36]:
+            - heading "Xora City" [level=3] [ref=f2e37]
+            - paragraph [ref=f2e38]: A hundred acres reimagined as a township of distinction, where contemporary homes meet the timeless rhythms of nature.
+            - generic [ref=f2e39]:
+              - generic [ref=f2e40]: 100 Acres
+              - generic [ref=f2e41]: Hyderabad
+        - article [ref=f2e42]:
+          - img "Constella" [ref=f2e45]
+          - generic [ref=f2e46]:
+            - heading "Constella" [level=3] [ref=f2e47]
+            - paragraph [ref=f2e48]: Villas of quiet luxury, designed for those who seek space to breathe and architecture that listens before it speaks.
+            - generic [ref=f2e49]:
+              - generic [ref=f2e50]: Villas
+              - generic [ref=f2e51]: Ongoing
+        - article [ref=f2e52]:
+          - img "Ntanya" [ref=f2e55]
+          - generic [ref=f2e56]:
+            - heading "Ntanya" [level=3] [ref=f2e57]
+            - paragraph [ref=f2e58]: A boutique address where intimacy meets intention, and every amenity serves the quieter pursuits of a considered life.
+            - generic [ref=f2e59]:
+              - generic [ref=f2e60]: Boutique
+              - generic [ref=f2e61]: Ongoing
+    - generic [ref=f2e62]:
+      - generic [ref=f2e63]:
+        - paragraph [ref=f2e64]: Our Principles
+        - heading "The details that endure" [level=2] [ref=f2e65]
+      - generic [ref=f2e66]:
+        - generic [ref=f2e67]:
+          - heading "Sustainable" [level=3] [ref=f2e73]
+          - paragraph [ref=f2e74]: Homes that work with the land, drawing light from the sun, shade from the trees, and wisdom from the old ways of building.
+        - generic [ref=f2e75]:
+          - heading "Connected" [level=3] [ref=f2e81]
+          - paragraph [ref=f2e82]: Minutes from the airport, moments from the city, yet worlds apart from the ordinary. The art of the right address.
+        - generic [ref=f2e83]:
+          - heading "Considered" [level=3] [ref=f2e87]
+          - paragraph [ref=f2e88]: Architecture that does not shout. Spaces that breathe. Rooms that welcome light without demanding attention.
+    - generic [ref=f2e89]:
+      - generic [ref=f2e90]:
+        - paragraph [ref=f2e91]: Inquire
+        - heading "Begin the conversation" [level=2] [ref=f2e92]
+        - paragraph [ref=f2e93]: A home is a long thought. We invite you to share yours.
+      - generic [ref=f2e95]:
+        - generic [ref=f2e96]:
+          - generic [ref=f2e97]:
+            - generic [ref=f2e98]: Name
+            - textbox "Name" [ref=f2e99]
+          - generic [ref=f2e100]:
+            - generic [ref=f2e101]: Email
+            - textbox "Email" [ref=f2e102]
+          - generic [ref=f2e103]:
+            - generic [ref=f2e104]: Phone
+            - textbox "Phone" [ref=f2e105]
+          - generic [ref=f2e106]:
+            - generic [ref=f2e107]: Message
+            - textbox "Message" [ref=f2e108]:
+              - /placeholder: Tell us about the home you envision...
+        - button "Send Inquiry" [ref=f2e110] [cursor=pointer]
+  - contentinfo [ref=f2e111]:
+    - generic [ref=f2e112]:
+      - generic [ref=f2e113]: Speed Infra
+      - paragraph [ref=f2e114]: The Spaces for Life
+      - list [ref=f2e115]:
+        - listitem [ref=f2e116]:
+          - link "Philosophy" [ref=f2e117] [cursor=pointer]:
+            - /url: "#vision"
+        - listitem [ref=f2e118]:
+          - link "Developments" [ref=f2e119] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=f2e120]:
+          - link "Inquire" [ref=f2e121] [cursor=pointer]:
+            - /url: "#contact"
+        - listitem [ref=f2e122]:
+          - link "Official Site" [ref=f2e123] [cursor=pointer]:
+            - /url: https://speedinfra.in
+      - paragraph [ref=f2e124]: © 2024 Speed Infra Developers LLP. Crafted with care.

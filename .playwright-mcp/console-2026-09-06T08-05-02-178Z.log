@@ -1,0 +1,22 @@
+[      26ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[      26ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[      44ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[      44ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  369676ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[  369676ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[  369722ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  369722ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  460429ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[  460429ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[  460466ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  460466ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461054ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[  461054ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[  461084ms] [WARNING] GSAP target .vision-image img not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461085ms] [WARNING] Element not found: .vision @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js:9
+[  461087ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461087ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461087ms] [WARNING] Element not found: .vision @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js:9
+[  461087ms] [WARNING] GSAP target .contact-inner > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461087ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  461087ms] [WARNING] Element not found: .contact @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js:9

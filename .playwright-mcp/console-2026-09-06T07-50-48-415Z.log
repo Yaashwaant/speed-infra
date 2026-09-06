@@ -1,0 +1,8 @@
+[      44ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[      44ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[     198ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[     199ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  294727ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[  294727ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[  294744ms] [WARNING] GSAP target .vision-text > * not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[  294744ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9

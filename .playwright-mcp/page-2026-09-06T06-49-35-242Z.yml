@@ -1,0 +1,217 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Speed Infra" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Vision" [ref=e8] [cursor=pointer]:
+            - /url: "#vision"
+        - listitem [ref=e9]:
+          - link "Projects" [ref=e10] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e11]:
+          - link "Contact" [ref=e12] [cursor=pointer]:
+            - /url: "#contact"
+  - generic [ref=e15]:
+    - generic:
+      - generic:
+        - heading "Raw land. Infinite possibility." [level=1]:
+          - text: Raw land. Infinite possibility.
+          - generic [aria-hidden]:
+            - generic:
+              - generic: R
+              - generic: a
+              - generic: w
+            - generic:
+              - generic: l
+              - generic: a
+              - generic: "n"
+              - generic: d
+              - generic: .
+            - generic:
+              - generic: I
+              - generic: "n"
+              - generic: f
+              - generic: i
+              - generic: "n"
+              - generic: i
+              - generic: t
+              - generic: e
+            - generic:
+              - generic: p
+              - generic: o
+              - generic: s
+              - generic: s
+              - generic: i
+              - generic: b
+              - generic: i
+              - generic: l
+              - generic: i
+              - generic: t
+              - generic: "y"
+              - generic: .
+      - generic:
+        - heading "We see more than earth." [level=1]:
+          - text: We see more than earth.
+          - generic [aria-hidden]:
+            - generic:
+              - generic: W
+              - generic: e
+            - generic:
+              - generic: s
+              - generic: e
+              - generic: e
+            - generic:
+              - generic: m
+              - generic: o
+              - generic: r
+              - generic: e
+            - generic:
+              - generic: t
+              - generic: h
+              - generic: a
+              - generic: "n"
+            - generic:
+              - generic: e
+              - generic: a
+              - generic: r
+              - generic: t
+              - generic: h
+              - generic: .
+        - paragraph: We see homes. Communities. Life.
+      - generic:
+        - paragraph: Every line drawn with purpose. Every space designed for living. Near the airport, away from chaos.
+      - generic:
+        - heading "The Spaces for Life" [level=1]:
+          - text: The Spaces for Life
+          - generic [aria-hidden]:
+            - generic:
+              - generic: T
+              - generic: h
+              - generic: e
+            - generic:
+              - generic: S
+              - generic: p
+              - generic: a
+              - generic: c
+              - generic: e
+              - generic: s
+            - generic:
+              - generic: f
+              - generic: o
+              - generic: r
+            - generic:
+              - generic: L
+              - generic: i
+              - generic: f
+              - generic: e
+        - paragraph: Contemporary homes. Sustainable communities. Your world.
+        - generic:
+          - link "Explore Projects":
+            - /url: "#projects"
+          - link "Schedule Visit":
+            - /url: "#contact"
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Building Tomorrow's Communities Today" [level=3] [ref=e25]
+        - paragraph [ref=e26]: At Speed Infra, we transform landscapes into lifescapes. With two decades of experience, we craft homes that breathe with nature, connect with convenience, and inspire with design.
+        - paragraph [ref=e27]: "Just 10 minutes from Hyderabad airport, our developments offer the perfect balance: close to everything, away from everything."
+        - link "View Our Work" [ref=e28] [cursor=pointer]:
+          - /url: "#projects"
+      - img "Speed Infra Community Development" [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: Our Projects
+        - heading "Spaces Crafted for Life" [level=2] [ref=e34]
+      - generic [ref=e35]:
+        - article [ref=e36]:
+          - img "Xora City" [ref=e38]
+          - generic [ref=e39]:
+            - heading "Xora City" [level=3] [ref=e40]
+            - paragraph [ref=e41]: 100-acre township with concept-based projects, exceptional amenities, and unparalleled quality of life.
+            - generic [ref=e42]:
+              - generic [ref=e43]: 100 Acres
+              - generic [ref=e44]: Mixed Development
+        - article [ref=e45]:
+          - img "Constella" [ref=e47]
+          - generic [ref=e48]:
+            - heading "Constella" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Premium villas designed for modern living, where contemporary architecture meets sustainable design.
+            - generic [ref=e51]:
+              - generic [ref=e52]: Ongoing
+              - generic [ref=e53]: Luxury Villas
+        - article [ref=e54]:
+          - img "Ntanya" [ref=e56]
+          - generic [ref=e57]:
+            - heading "Ntanya" [level=3] [ref=e58]
+            - paragraph [ref=e59]: Boutique development focused on creating intimate community spaces with world-class amenities.
+            - generic [ref=e60]:
+              - generic [ref=e61]: Ongoing
+              - generic [ref=e62]: Boutique Homes
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: Why Speed Infra
+        - heading "Designed for Tomorrow" [level=2] [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Sustainable Living" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Eco-friendly construction with solar power integration and green landscapes that breathe.
+        - generic [ref=e74]:
+          - heading "Prime Locations" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Strategic positions near airports and city centers, yet nestled in tranquil settings.
+        - generic [ref=e81]:
+          - heading "Modern Design" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Contemporary architecture that maximizes space, light, and connection with nature.
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: Experience
+        - heading "Feel the Transformation" [level=2] [ref=e91]
+        - paragraph [ref=e92]: Hold to see land transform into life
+      - button "Hold to transform" [ref=e93] [cursor=pointer]:
+        - generic [ref=e94]: Hold & Transform
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - paragraph [ref=e98]: Get in Touch
+        - heading "Start Your Journey Home" [level=2] [ref=e99]
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]: Your Name
+            - textbox "Your Name" [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Email Address
+            - textbox "Email Address" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Phone Number
+            - textbox "Phone Number" [ref=e110]
+          - generic [ref=e111]:
+            - generic [ref=e112]: Interested In
+            - textbox "Interested In" [ref=e113]:
+              - /placeholder: e.g., Xora City, Constella
+          - generic [ref=e114]:
+            - generic [ref=e115]: Message
+            - textbox "Message" [ref=e116]:
+              - /placeholder: Tell us about your dream home...
+        - button "Send Message" [ref=e118] [cursor=pointer]
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]: Speed Infra
+      - paragraph [ref=e122]: The Spaces for Life
+      - list [ref=e123]:
+        - listitem [ref=e124]:
+          - link "About" [ref=e125] [cursor=pointer]:
+            - /url: "#vision"
+        - listitem [ref=e126]:
+          - link "Projects" [ref=e127] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e128]:
+          - link "Contact" [ref=e129] [cursor=pointer]:
+            - /url: "#contact"
+        - listitem [ref=e130]:
+          - link "Official Site" [ref=e131] [cursor=pointer]:
+            - /url: https://speedinfra.in
+      - paragraph [ref=e132]: © 2024 Speed Infra Developers LLP. All rights reserved.

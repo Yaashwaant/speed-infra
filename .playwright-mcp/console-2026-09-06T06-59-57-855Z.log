@@ -1,0 +1,3 @@
+[      20ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[      20ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[      50ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/undefined:0

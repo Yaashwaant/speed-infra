@@ -1,0 +1,118 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Speed Infra" [ref=f1e5] [cursor=pointer]:
+        - /url: "#"
+      - list [ref=f1e6]:
+        - listitem [ref=f1e7]:
+          - link "Vision" [ref=f1e8] [cursor=pointer]:
+            - /url: "#vision"
+        - listitem [ref=f1e9]:
+          - link "Projects" [ref=f1e10] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=f1e11]:
+          - link "Contact" [ref=f1e12] [cursor=pointer]:
+            - /url: "#contact"
+  - main [ref=f1e21]:
+    - generic [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - heading "Building Tomorrow's Communities Today" [level=3] [ref=f1e25]
+        - paragraph [ref=f1e26]: At Speed Infra, we transform landscapes into lifescapes. With two decades of experience, we craft homes that breathe with nature, connect with convenience, and inspire with design.
+        - paragraph [ref=f1e27]: "Just 10 minutes from Hyderabad airport, our developments offer the perfect balance: close to everything, away from everything."
+        - link "View Our Work" [ref=f1e28] [cursor=pointer]:
+          - /url: "#projects"
+      - img "Speed Infra Community Development" [ref=f1e31]
+    - generic [ref=f1e32]:
+      - generic [ref=f1e33]:
+        - paragraph [ref=f1e34]: Our Projects
+        - heading "Spaces Crafted for Life" [level=2] [ref=f1e35]
+      - generic [ref=f1e36]:
+        - article [ref=f1e37]:
+          - img "Xora City" [ref=f1e40]
+          - generic [ref=f1e41]:
+            - heading "Xora City" [level=3] [ref=f1e42]
+            - paragraph [ref=f1e43]: 100-acre township with concept-based projects, exceptional amenities, and unparalleled quality of life.
+            - generic [ref=f1e44]:
+              - generic [ref=f1e45]: 100 Acres
+              - generic [ref=f1e46]: Mixed Development
+        - article [ref=f1e47]:
+          - img "Constella" [ref=f1e50]
+          - generic [ref=f1e51]:
+            - heading "Constella" [level=3] [ref=f1e52]
+            - paragraph [ref=f1e53]: Premium villas designed for modern living, where contemporary architecture meets sustainable design.
+            - generic [ref=f1e54]:
+              - generic [ref=f1e55]: Ongoing
+              - generic [ref=f1e56]: Luxury Villas
+        - article [ref=f1e57]:
+          - img "Ntanya" [ref=f1e60]
+          - generic [ref=f1e61]:
+            - heading "Ntanya" [level=3] [ref=f1e62]
+            - paragraph [ref=f1e63]: Boutique development focused on creating intimate community spaces with world-class amenities.
+            - generic [ref=f1e64]:
+              - generic [ref=f1e65]: Ongoing
+              - generic [ref=f1e66]: Boutique Homes
+    - generic [ref=f1e67]:
+      - generic [ref=f1e68]:
+        - paragraph [ref=f1e69]: Why Speed Infra
+        - heading "Designed for Tomorrow" [level=2] [ref=f1e70]
+      - generic [ref=f1e71]:
+        - generic [ref=f1e72]:
+          - heading "Sustainable Living" [level=3] [ref=f1e76]
+          - paragraph [ref=f1e77]: Eco-friendly construction with solar power integration and green landscapes that breathe.
+        - generic [ref=f1e78]:
+          - heading "Prime Locations" [level=3] [ref=f1e83]
+          - paragraph [ref=f1e84]: Strategic positions near airports and city centers, yet nestled in tranquil settings.
+        - generic [ref=f1e85]:
+          - heading "Modern Design" [level=3] [ref=f1e90]
+          - paragraph [ref=f1e91]: Contemporary architecture that maximizes space, light, and connection with nature.
+    - generic [ref=f1e92]:
+      - generic [ref=f1e93]:
+        - paragraph [ref=f1e94]: Experience
+        - heading "Feel the Transformation" [level=2] [ref=f1e95]
+        - paragraph [ref=f1e96]: Hold to see land transform into life
+      - button "Hold to transform" [ref=f1e97] [cursor=pointer]:
+        - generic [ref=f1e98]: Hold & Transform
+    - generic [ref=f1e100]:
+      - generic [ref=f1e101]:
+        - paragraph [ref=f1e102]: Get in Touch
+        - heading "Start Your Journey Home" [level=2] [ref=f1e103]
+      - generic [ref=f1e104]:
+        - generic [ref=f1e105]:
+          - generic [ref=f1e106]:
+            - generic [ref=f1e107]: Your Name
+            - textbox "Your Name" [ref=f1e108]
+          - generic [ref=f1e109]:
+            - generic [ref=f1e110]: Email Address
+            - textbox "Email Address" [ref=f1e111]
+          - generic [ref=f1e112]:
+            - generic [ref=f1e113]: Phone Number
+            - textbox "Phone Number" [ref=f1e114]
+          - generic [ref=f1e115]:
+            - generic [ref=f1e116]: Interested In
+            - textbox "Interested In" [ref=f1e117]:
+              - /placeholder: e.g., Xora City, Constella
+          - generic [ref=f1e118]:
+            - generic [ref=f1e119]: Message
+            - textbox "Message" [ref=f1e120]:
+              - /placeholder: Tell us about your dream home...
+        - button "Send Message" [ref=f1e122] [cursor=pointer]
+  - contentinfo [ref=f1e123]:
+    - generic [ref=f1e124]:
+      - generic [ref=f1e125]: Speed Infra
+      - paragraph [ref=f1e126]: The Spaces for Life
+      - list [ref=f1e127]:
+        - listitem [ref=f1e128]:
+          - link "About" [ref=f1e129] [cursor=pointer]:
+            - /url: "#vision"
+        - listitem [ref=f1e130]:
+          - link "Projects" [ref=f1e131] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=f1e132]:
+          - link "Contact" [ref=f1e133] [cursor=pointer]:
+            - /url: "#contact"
+        - listitem [ref=f1e134]:
+          - link "Official Site" [ref=f1e135] [cursor=pointer]:
+            - /url: https://speedinfra.in
+      - paragraph [ref=f1e136]: © 2024 Speed Infra Developers LLP. All rights reserved.

@@ -1,0 +1,28 @@
+[      17ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[      17ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[    6544ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[   19733ms] [INFO] Launched external handler for 'mailto:hello@webbrixs.in'. @ http://localhost:8080/:0
+[   22721ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[   44490ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[  912326ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[  916355ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[  916658ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[  916658ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[  919740ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[  930486ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[  994892ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1006381ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[ 1006381ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[ 1011978ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1020457ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1036328ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[ 1036328ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[ 1045329ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1418526ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[ 1418526ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[ 1423565ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1428376ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1442504ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:24
+[ 1442504ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ http://localhost:8080/:25
+[ 1448520ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
+[ 1453247ms] [WARNING] The resource http://localhost:8080/assets/hero-poster.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/:0
