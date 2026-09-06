@@ -183,6 +183,51 @@
             inset: 0;
             pointer-events: none;
             background: radial-gradient(ellipse 120% 90% at 50% 45%, rgba(10,10,18,0) 35%, rgba(10,10,18,.62) 100%);
+            z-index: 1;
+        }
+
+        /* Mist Layer */
+        .mist {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background-image: url('assets/mist.png');
+            background-repeat: repeat;
+            background-size: 800px; 
+            opacity: 0.85; 
+            mix-blend-mode: screen;
+            animation: mistDrift 30s linear infinite;
+            z-index: 2;
+            
+            /* High contrast turns soft noise into harder, cloud-like clumps */
+            filter: contrast(1.8) brightness(0.9);
+            
+            /* Mask to put clouds in upper and lower areas */
+            -webkit-mask-image: 
+                /* Top patches */
+                radial-gradient(ellipse at 10% 5%, black 0%, transparent 40%),
+                radial-gradient(ellipse at 90% 10%, black 0%, transparent 45%),
+                radial-gradient(ellipse at 50% -5%, black 0%, transparent 40%),
+                /* Bottom patches */
+                radial-gradient(ellipse at 15% 90%, black 0%, transparent 45%),
+                radial-gradient(ellipse at 85% 85%, black 0%, transparent 40%),
+                radial-gradient(ellipse at 50% 105%, black 0%, transparent 45%);
+            mask-image: 
+                radial-gradient(ellipse at 10% 5%, black 0%, transparent 40%),
+                radial-gradient(ellipse at 90% 10%, black 0%, transparent 45%),
+                radial-gradient(ellipse at 50% -5%, black 0%, transparent 40%),
+                radial-gradient(ellipse at 15% 90%, black 0%, transparent 45%),
+                radial-gradient(ellipse at 85% 85%, black 0%, transparent 40%),
+                radial-gradient(ellipse at 50% 105%, black 0%, transparent 45%);
+        }
+
+        @keyframes mistDrift {
+            0% {
+                background-position: 0px 0px;
+            }
+            100% {
+                background-position: -1200px 600px;
+            }
         }
         
         /* Caption Container */
@@ -199,11 +244,11 @@
             inset: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
-            pointer-events: none;
-            z-index: 5;
+            align-items: center;
             padding: 2rem;
+            pointer-events: none; /* Let clicks pass through to video if needed */
+            z-index: 3;
         }
         
         /* Scroll Indicator (Mouse + Text) */
@@ -1596,6 +1641,7 @@ nav {
                 </svg>
             </div>
             <div class="scrim"></div>
+            <div class="mist"></div>
             <div class="hero-overlay">
                 <div class="hero-text">
                     <p class="hero-kicker">In the land of</p>
@@ -1751,6 +1797,13 @@ nav {
                         // Hero text fades out as you scroll through the video
                         const heroText = document.querySelector('.hero-text');
                         const scrollIndicator = document.querySelector('.scroll-indicator');
+                        const mistLayer = document.querySelector('.mist');
+                        
+                        if (mistLayer) {
+                            // Fade out mist quickly as you start scrolling
+                            const mistOpacity = 0.7 * (1 - Math.min(1, progress * 4));
+                            mistLayer.style.opacity = mistOpacity;
+                        }
                         
                         if (heroText) {
                             // Title scales down and fades slightly as scroll progresses
