@@ -181,7 +181,8 @@
             position: absolute;
             inset: 0;
             pointer-events: none;
-            background: radial-gradient(ellipse 120% 90% at 50% 45%, rgba(10,10,18,0) 35%, rgba(10,10,18,.62) 100%);
+            /* ui-ux-pro-max: Scrim strong enough to isolate foreground (40-60%) */
+            background: radial-gradient(ellipse 120% 90% at 50% 45%, rgba(10,10,18,0.4) 35%, rgba(10,10,18,0.7) 100%);
             z-index: 1;
         }
 
@@ -315,7 +316,7 @@
             color: #f5eedc; /* Warm white muted */
             margin-bottom: 1.5rem;
             opacity: 0.95;
-            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         
         .hero-title {
@@ -327,7 +328,7 @@
             letter-spacing: 0.02em;
             margin-bottom: 0;
             opacity: 0.98;
-            text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5), 0 4px 16px rgba(0,0,0,0.4);
         }
         
         .hero-subtitle {
@@ -338,7 +339,7 @@
             margin-top: 1rem;
             margin-bottom: 2.5rem;
             opacity: 0.85;
-            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
             letter-spacing: 0.05em;
         }
 
@@ -1798,6 +1799,13 @@ nav {
                         const heroText = document.querySelector('.hero-text');
                         const scrollIndicator = document.querySelector('.mouse-scroll-indicator');
                         const mistLayer = document.querySelector('.mist');
+                        const scrimLayer = document.querySelector('.scrim');
+                        
+                        if (scrimLayer) {
+                            // Fade out the scrim as you scroll so the video becomes fully visible
+                            const scrimOpacity = Math.max(0, 1 - (progress * 2.5));
+                            scrimLayer.style.opacity = scrimOpacity;
+                        }
                         
                         if (mistLayer) {
                             // Fade out mist quickly as you start scrolling
